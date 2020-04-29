@@ -1,29 +1,30 @@
-def add(x, y):
-   return x + y
-print("1")
+a= int(input("enter a"))
+b= int(input("enter b"))
 
-def subtract(x, y):
-   return x - y
-print("2")
+def add(a, b):
+ return a+b
+ print("1")
 
-def multiply(x, y):
-   return x * y
-print("3")
+def substract(a,b):
+ return a-b
+ print("2")
 
-def divide(x, y):
-   return x / y
-print("4")
+def multiply(a,b):
+ return a*b
+ print("3")
 
-select = input("select1/2/3/4")
+def divide(a,b):
+ return a/b
+ print("4")
 
-n1=int(input("enter n1"))
-n2=int(input("enter n2"))
+select = input("select 1/2/3/4")
 
 if select== "1":
-    print(add(n1,n2))
+    print(a+b)
 elif select== "2":
-    print(subtract(n1-n2))
-elif select== "3":
-    print(multiply(n1,n2))
+    print(a-b)
+elif select == "3":
+    print(a*b)
 else:
-    print(divide(n1,n2))
+    print(a/b)
+    
